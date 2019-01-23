@@ -1,0 +1,42 @@
+
+#we_content .we_content{
+	background: #fff;
+	color:#333;
+	margin-bottom:120px;
+}
+#we_content h3{
+	margin:100px 0 70px;
+	font-size:30px;
+}
+.we_content_inner{
+	display: -webkit-box;
+	/* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+	display: -moz-box;
+	/* 老版本语法: Firefox (buggy) */
+	display: -ms-flexbox;
+	/* 混合版本语法: IE 10 */
+	display: -webkit-flex;
+	/* 新版本语法: Chrome 21+ */
+	display: flex;
+	/* 新版本语法: Opera 12.1, Firefox 22+ */
+	-webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+.we_content_left{
+	width:660px;
+	
+}
+
+.we_content_left p{
+	font-size:16px;
+	margin-bottom:30px;
+	line-height: 28px;
+}
+.we_content_right img{
+	display: block;
+	height:300px;
+	width:500px;
+	margin-top:6px;
+}

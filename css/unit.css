@@ -1,0 +1,203 @@
+#unit {
+	background: #fff;
+	width: 100%;
+	text-align: center;
+}
+
+#unit .unit {
+	display: -webkit-box;
+	/* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+	display: -moz-box;
+	/* 老版本语法: Firefox (buggy) */
+	display: -ms-flexbox;
+	/* 混合版本语法: IE 10 */
+	display: -webkit-flex;
+	/* 新版本语法: Chrome 21+ */
+	display: flex;
+	/* 新版本语法: Opera 12.1, Firefox 22+ */
+	-webkit-box-orient: vertical;
+	-ms-flex-direction: column;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	margin-bottom: 150px;
+}
+
+.unit .title {
+	margin-top: 100px;
+	font-size: 36px;
+	color: #333;
+}
+
+.unit .hint {
+	height: 2px;
+	width: 200px;
+	background: #008aff;
+	margin: 20px 0 30px 0;
+}
+
+.unit .hint_bottom {
+	font-size: 18px;
+	color: #999;
+	margin-bottom: 80px;
+}
+
+.unit ul {
+	width: 1200px;
+	display: -webkit-box;
+	/* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+	display: -moz-box;
+	/* 老版本语法: Firefox (buggy) */
+	display: -ms-flexbox;
+	/* 混合版本语法: IE 10 */
+	display: -webkit-flex;
+	/* 新版本语法: Chrome 21+ */
+	display: flex;
+	/* 新版本语法: Opera 12.1, Firefox 22+ */
+	-webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+	-ms-justify-content: space-between;
+	-o-justify-content: space-between;
+	justify-content: space-between;
+}
+
+.unit ul li {
+	position: relative;
+	width: 200px;
+	padding: 20px 30px 40px;
+	height: 500px;
+	-moz-box-shadow: 0px -1px 3px 0px #f1f1f1, -1px 0px 3px 0px #f1f1f1, 1px 0px 3px 0px #f1f1f1, 0px 1px 3px 0px #f1f1f1;
+	-webkit-box-shadow: 0px -1px 3px 0px #f1f1f1, -1px 0px 3px 0px #f1f1f1, 1px 0px 3px 0px #f1f1f1, 0px 1px 3px 0px #f1f1f1;
+	box-shadow: 0px -1px 3px 0px #f1f1f1, -1px 0px 3px 0px #f1f1f1, 3px 0px 1px 0px #f1f1f1, 0px 1px 3px 0px #f1f1f1;
+	/*border:2px solid #008aff;*/
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
+	border-radius: 8px;
+	transition: all .3s;
+	-ms-transition: all .3s;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+}
+.unit ul li p span{
+	white-space: nowrap;
+}
+.unit .bottom p span:nth-of-type(1){
+	display: inline-block;
+	height:6px;
+	width:6px;
+	border-radius: 50%;
+	background: #aaa;
+	margin-right:10px;
+}
+.unit .title_inner {
+	font-size: 20px;
+	color: #333;
+}
+
+.unit .hint_inner {
+	height: 2px;
+	background: #ccc;
+	margin: 12px 0 20px;
+}
+
+.unit .price {
+	color: #7D827D;
+	font-size: 20px;
+	opacity: 1;
+	transition: all .2s;
+	-ms-transition: all .2s;
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+}
+
+.unit .price span:nth-of-type(2) {
+	font-size: 36px;
+}
+
+.unit ul li .top {
+	background: #fff;
+	position: absolute;
+	top: 140px;
+	transition: all .2s;
+	-ms-transition: all .2s;
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+}
+
+.unit ul li .top p {
+	line-height: 30px;
+	display: -webkit-box;
+	/* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+	display: -moz-box;
+	/* 老版本语法: Firefox (buggy) */
+	display: -ms-flexbox;
+	/* 混合版本语法: IE 10 */
+	display: -webkit-flex;
+	/* 新版本语法: Chrome 21+ */
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.unit ul li .top p img {
+	display: block;
+	height: 20px;
+	width: 20px;
+	margin-right: 12px;
+}
+
+.unit ul li .bottom {
+	text-align: left;
+	position: absolute;
+	top: 140px;
+	opacity: 0;
+	overflow: hidden;
+	height: 100px;
+	width: 200px;
+	background: #fff;
+	transition: all .3s;
+	-ms-transition: all .3s;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+}
+
+.unit ul li .bottom p {
+	line-height: 30px;
+	font-size: 14px;
+	display: -webkit-box;
+	/* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+	display: -moz-box;
+	/* 老版本语法: Firefox (buggy) */
+	display: -ms-flexbox;
+	/* 混合版本语法: IE 10 */
+	display: -webkit-flex;
+	/* 新版本语法: Chrome 21+ */
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.unit ul li:hover {
+	height: 1000px;
+	margin-top:-30px;
+}
+
+.unit ul li:hover .bottom {
+	opacity: 1;
+	z-index: 9;
+	top: 80px;
+	height: 960px;
+}
+
+.unit ul li:hover .price,
+.unit ul li:hover .top {
+	opacity: 0;
+}

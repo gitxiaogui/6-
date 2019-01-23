@@ -1,0 +1,125 @@
+.app_header{
+	position: relative;
+	width:100%;
+	background: rgba(0,0,0,.4);
+}
+#app_banner{
+	width:100%;
+	height:770px;
+	margin-top:-80px;
+	background: url(../img/app_banner.png) no-repeat center/cover;
+}
+#app_banner .app_banner{
+	width:1200px;
+	margin:0 auto;
+	color:#fff;
+	height:770px;
+}
+#app_banner .app_banner .app_banner_l{
+	float: left;
+}
+#app_banner .app_banner .app_banner_right{
+	margin:110px 50px 0 0;
+	float: right;
+}
+.app_banner .app_banner_title{
+	padding-top:260px;
+	
+}
+.app_banner .app_banner_title h4{
+	font-size:36px;
+	margin-bottom:12px;
+}
+.app_banner .app_banner_title p{
+	line-height: 38px;
+	font-size:20px;
+}
+
+.app_banner .app_banner_btn{
+	margin-top:40px;
+	position: relative;
+	width:440px;
+	display: -webkit-box;
+	/* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+	display: -moz-box;
+	/* 老版本语法: Firefox (buggy) */
+	display: -ms-flexbox;
+	/* 混合版本语法: IE 10 */
+	display: -webkit-flex;
+	/* 新版本语法: Chrome 21+ */
+	display: flex;
+	/* 新版本语法: Opera 12.1, Firefox 22+ */
+}
+.app_banner .app_banner_btn p{
+	height:50px;
+	width:160px;
+	background: rgba(0,0,0,.5);
+	font-size:26px;
+	color:#fff;
+	line-height: 50px;
+	text-align: center;
+	margin-bottom:30px;
+	border: 1px solid #ccc;
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	cursor:pointer
+}
+
+.app_banner .app_banner_btn .app_btn_right{
+	height:200px;
+	height:200px;
+	
+}
+
+.app_banner .app_banner_btn .app_btn_right img{
+	height:200px;
+	height:200px;
+	position: absolute;
+	right:0;
+	top:4px;
+}
+
+.zhengxin{
+	display: none;
+}
+#app_banner .app_banner .app_banner_l .app_btn_fff{
+	background: #fff;
+	color:#333;
+}
+
+#platform{
+	background: #fff;
+	width:100%;
+}
+#platform .platform{
+	width:1200px;
+	margin:0 auto;
+	padding:100px 0;
+	text-align: center;
+}
+
+#platform .platform .title{
+	font-size: 36px;
+	color: #333;
+}
+#platform .platform .hint{
+	height:2px;
+	width:540px;
+	background: #008aff;
+	margin:20px auto 80px;
+}
+#platform .platform p{
+	font-size:20px;
+	color:#333;
+}
+#platform .platform p:nth-of-type(1){
+	margin-bottom:50px;
+} 
+.header_position{
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: 10;
+	background: rgba(0,0,0,.4);
+}
